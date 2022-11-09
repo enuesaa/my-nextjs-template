@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import './global.css'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -6,5 +6,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="ja">
       <body>{children}</body>
     </html>
-  );
+  )
 }

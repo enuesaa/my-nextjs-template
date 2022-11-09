@@ -6,7 +6,7 @@ export default function Page() {
   const style = {
     h1: css({
       color: '#ff6633',
-    })
+    }),
   }
 
   return (
