@@ -5,7 +5,7 @@ import { useServerInsertedHTML } from 'next/navigation'
 import { useState } from 'react'
 
 /**
- * @see https://github.com/emotion-js/emotion/issues/2102
+ * @see https://github.com/emotion-js/emotion/issues/2928
  */
 export default function RootStyleRegistry({ children }: { children: JSX.Element }) {
   const [cache] = useState(() => createCache({ key: 'chgvjbnk' }))
