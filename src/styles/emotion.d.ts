@@ -1,7 +1,9 @@
 import '@emotion/react'
+import { CSSObject } from '@emotion/react'
 
 declare module '@emotion/react' {
   export interface Theme {
+    button: CSSObject
     centering: {
       width: string
       maxWidth: string

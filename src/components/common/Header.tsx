@@ -1,13 +1,15 @@
 import Link from 'next/link'
-import { css } from '@emotion/react'
+import { css, useTheme } from '@emotion/react'
 
 export function Header() {
+  const theme = useTheme()
+
   const styles = {
     top: css({
       width: '100%',
       height: '1.0',
       minHeight: '100px',
-      background: '#ff6633',
+      background: theme.color.highlight,
       boxShadow: '2px 2px 2px rgba(0, 0, 0, 0.7)',
       display: 'flex',
       justifyContent: 'center',
