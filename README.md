@@ -2,7 +2,7 @@
 Template repository for NextJS application.
 
 ## Stack
-- Typescript
+- TypeScript
 - NextJS v13 ... not app directory
 - @emotion/react
 - ESLint
