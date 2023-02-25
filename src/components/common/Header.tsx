@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { css, useTheme } from '@emotion/react'
 
-export function Header() {
+export const Header = () => {
   const theme = useTheme()
 
   const styles = {
