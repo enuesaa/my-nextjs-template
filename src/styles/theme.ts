@@ -1,9 +1,15 @@
 export const baseTheme = {
-  button: {},
-  centering: {
-    width: '96%',
-    maxWidth: '1000px',
+  form: {
+    'input': {},
+    'textarea':{},
   },
+  button: {},
+  box: {},
+  card: {},
+  link: {},
+  linkCard: {},
+  w100: {},
+
   color: {
     main: '#e6e6e6',
     sub: 'rgba(0, 0, 0, 0.15)',

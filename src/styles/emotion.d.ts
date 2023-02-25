@@ -3,11 +3,14 @@ import { CSSObject } from '@emotion/react'
 
 declare module '@emotion/react' {
   export interface Theme {
+    form: CSSObject
     button: CSSObject
-    centering: {
-      width: string
-      maxWidth: string
-    }
+    box: CSSObject,
+    card: CSSObject,
+    link: CSSObject,
+    linkCard: CSSObject,
+    w100: CSSObject,
+
     color: {
       main: string
       highlight: string
