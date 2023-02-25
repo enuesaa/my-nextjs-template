@@ -5,8 +5,7 @@ export const Header = () => {
   const theme = useTheme()
 
   const styles = {
-    top: css({
-      width: '100%',
+    top: css(theme.box, {
       height: '1.0',
       minHeight: '100px',
       background: theme.color.highlight,

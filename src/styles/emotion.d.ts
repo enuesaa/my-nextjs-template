@@ -5,11 +5,12 @@ declare module '@emotion/react' {
   export interface Theme {
     form: CSSObject
     button: CSSObject
-    box: CSSObject,
-    card: CSSObject,
-    link: CSSObject,
-    linkCard: CSSObject,
-    w100: CSSObject,
+    box: CSSObject
+    innerbox: CSSObject
+    card: CSSObject
+    link: CSSObject
+    linkCard: CSSObject
+    heading: CSSObject
 
     color: {
       main: string

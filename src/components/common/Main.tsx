@@ -1,16 +1,15 @@
 import { ReactNode } from 'react'
-import { css } from '@emotion/react'
+import { css, useTheme } from '@emotion/react'
 
 type Props = {
   children: ReactNode
 }
 export const Main = ({ children }: Props) => {
+  const theme = useTheme()
+
   const styles = {
-    main: css({
-      width: '90%',
-      margin: '0 auto',
+    main: css(theme.innerbox, {
       height: '100vh',
-      padding: '20px 0',
     }),
   }
 
