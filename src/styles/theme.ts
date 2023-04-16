@@ -1,7 +1,7 @@
 export const baseTheme = {
   form: {
-    'input': {},
-    'textarea':{},
+    input: {},
+    textarea: {},
   },
   button: {},
   box: {
