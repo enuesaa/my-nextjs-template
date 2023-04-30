@@ -1,4 +1,3 @@
-import { css, useTheme } from '@emotion/react'
 import Link from 'next/link'
 
 type Props = {
@@ -6,13 +5,8 @@ type Props = {
   name: string
 }
 export const LinkCard = ({ href, name }: Props) => {
-  const theme = useTheme()
-  const styles = {
-    link: css(theme.linkCard),
-  }
-
   return (
-    <Link href={href} css={styles.link}>
+    <Link href={href}>
       {name}
     </Link>
   )

@@ -1,13 +1,11 @@
-import { css, useTheme } from '@emotion/react'
+import { css } from '@emotion/react'
 
 type Props = {
   name: string
 }
 export const Title = ({ name }: Props) => {
-  const theme = useTheme()
-
   const styles = {
-    h2: css(theme.heading, {
+    h2: css({
       width: '100%',
       color: '#cccccc',
     }),
