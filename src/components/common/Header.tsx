@@ -1,9 +1,9 @@
-import { css } from '@emotion/react'
+import { useStyles } from '@/styles/use'
 import Link from 'next/link'
 
 export const Header = () => {
-  const styles = {
-    top: css({
+  const styles = useStyles(theme => ({
+    top: theme().css({
       height: '1.0',
       minHeight: '100px',
       boxShadow: '2px 2px 2px rgba(0, 0, 0, 0.7)',
@@ -11,7 +11,7 @@ export const Header = () => {
       justifyContent: 'center',
       alignItems: 'center',
     }),
-    title: css({
+    title: theme().css({
       color: '#fafafa',
       textShadow: '2px 2px 2px #000',
       fontSize: '45px',
@@ -24,8 +24,8 @@ export const Header = () => {
       '&:hover': {
         textShadow: '3px 3px 2px #000',
       },
-    }),
-  }
+    })
+  }))
 
   return (
     <>
