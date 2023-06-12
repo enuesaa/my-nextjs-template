@@ -10,7 +10,7 @@
     "format": "prettier --write \"src/**/*.{ts,tsx}\""
   },
   "dependencies": {
-    "@emotion/react": "^11.11.0",
+    "@emotion/react": "^11.11.1",
     "emotion-normalize": "^11.0.1",
     "next": "13.4.4",
     "react": "18.2.0",
