@@ -1,6 +1,5 @@
 import { Metadata } from 'next'
-import 'styled-system/styles.css'
-import '@/styled-system/global.css'
+import './global.css'
 
 type Props = {
   children: React.ReactNode,
