@@ -1,29 +1,30 @@
+'use client'
 import { css } from '@/styled-system/css'
-import { container } from '@/styled-system/patterns'
 import { addNote } from './actions'
+import { MouseEventHandler, useState } from 'react'
 
-export default async function Page() {
+export default function Page() {
+  const [visible, setVisible] = useState(true)
   const styles = {
     main: css({
-      fontSize: '7xl',
-      color: 'violet.700',
-      _hover: {
-        color: 'red.300',
-      },
+      visibility: visible ? 'visible' : 'hidden',
     })
+  }
+
+  const handleToggle: MouseEventHandler<HTMLButtonElement> = (e) => {
+    e.preventDefault()
+    setVisible(!visible)
   }
 
   return (
     <>
-      <div className={container()}>
-        <h1 className={styles.main}>
-          This is about page.
-        </h1>
-        <form action={addNote}>
-          <textarea name='name'></textarea>
-          <button type='submit'>submit</button>
-        </form>
+      <div className={styles.main}>hey
       </div>
+      <button onClick={handleToggle}>toggle</button>
+      <form action={addNote}>
+        <textarea name='name'></textarea>
+        <button type='submit'>submit</button>
+      </form>
     </>
   )
 }
