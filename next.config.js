@@ -5,6 +5,7 @@ const nextConfig = {
   distDir: 'dist',
   experimental: {
     serverActions: true,
+    typedRoutes: true,
   },
 }
 
