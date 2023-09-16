@@ -17,14 +17,14 @@
     "zod": "^3.22.2"
   },
   "devDependencies": {
-    "@pandacss/dev": "^0.14.0",
-    "@types/node": "20.6.0",
+    "@pandacss/dev": "^0.15.0",
+    "@types/node": "20.6.2",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "eslint": "8.49.0",
     "eslint-config-next": "^13.4.19",
-    "prettier": "^3.0.2",
+    "prettier": "^3.0.3",
     "prettier-plugin-organize-imports": "^3.2.3",
-    "typescript": "5.1.6"
+    "typescript": "5.2.2"
   }
 }
