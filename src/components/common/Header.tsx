@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { BiCoffee } from 'react-icons/bi'
-import { MdOutlineCoffeeMaker } from 'react-icons/md'
+import { AiTwotoneSetting } from 'react-icons/ai'
+import { FaGuitar } from 'react-icons/fa'
 import { Flex, Box, Container } from '@radix-ui/themes'
 import { css } from '@emotion/react'
 
@@ -39,13 +39,13 @@ export const Header = () => {
         <Flex>
           <Box grow='1'>
             <Link href='/' css={styles.heading}>
-              <BiCoffee />
-              teatime
+              <FaGuitar />
+              my-nextjs-template
             </Link>
           </Box>
 
           <Link href='/setting' css={styles.setting}>
-            <MdOutlineCoffeeMaker />
+            <AiTwotoneSetting />
           </Link>
         </Flex>
       </Container>
