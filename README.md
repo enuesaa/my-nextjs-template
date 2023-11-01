@@ -7,3 +7,8 @@ Template Repository of Next.js App.
 - @emotion/react
 - ESLint
 - Prettier
+
+## Command
+```bash
+pnpm create next-app -e https://github.com/enuesaa/my-nextjs-template
+```
