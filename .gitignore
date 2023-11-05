@@ -1,9 +1,6 @@
 # dependencies
 /node_modules
 
-# testing
-/coverage
-
 # next.js
 /.next/
 /dist
@@ -22,15 +19,9 @@ yarn-error.log*
 .env*.local
 .env
 
-# vercel
-.vercel
-
 # typescript
 *.tsbuildinfo
 next-env.d.ts
 
 # editor
 .vscode
-
-# pandacss
-src/styled-system
