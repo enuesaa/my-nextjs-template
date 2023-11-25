@@ -2,9 +2,9 @@
 Template Repository of Next.js App.
 
 ## Stack
-- Next.js v13 pages router
+- Next.js v14 pages router
 - @radix-ui/themes
-- @emotion/react
+- @vanilla-extract/css
 - ESLint
 - Prettier
 
