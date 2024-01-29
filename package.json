@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@radix-ui/themes": "^2.0.3",
-    "@vanilla-extract/css": "^1.14.0",
+    "@vanilla-extract/css": "^1.14.1",
     "next": "^14.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -21,10 +21,10 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
-    "@types/node": "20.11.5",
+    "@types/node": "20.11.10",
     "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
-    "@vanilla-extract/next-plugin": "^2.3.3",
+    "@vanilla-extract/next-plugin": "^2.3.5",
     "eslint": "8.56.0",
     "eslint-config-next": "^14.1.0",
     "prettier": "^3.2.4",
