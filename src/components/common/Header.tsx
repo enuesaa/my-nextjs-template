@@ -9,7 +9,7 @@ export const Header = () => {
     <header className={styles.main}>
       <Container size='4'>
         <Flex>
-          <Box grow='1'>
+          <Box flexGrow='1'>
             <Link href='/' className={styles.heading}>
               <FaGuitar />
               my-nextjs-template
