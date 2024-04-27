@@ -1,6 +1,7 @@
 name: automerge
+
 on:
-  - pull_request_target
+  pull_request_target:
 
 permissions:
   pull-requests: write
@@ -9,7 +10,6 @@ permissions:
 jobs:
   automerge:
     runs-on: ubuntu-latest
-    # see https://dev.classmethod.jp/articles/github-dependabot-auto-merge/
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
       - uses: dependabot/fetch-metadata@v1

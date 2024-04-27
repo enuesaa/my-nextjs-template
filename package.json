@@ -3,30 +3,31 @@
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
-  "packageManager": "pnpm@8.14.0",
   "scripts": {
     "dev": "rm -rf .next && next dev",
     "build": "next build",
     "lint": "next lint",
     "format": "prettier --write \"src/**/*.{ts,tsx}\""
   },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "dependencies": {
     "@radix-ui/themes": "^3.0.2",
     "@vanilla-extract/css": "^1.14.2",
-    "next": "14.2.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "next": "14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-icons": "^5.1.0",
-    "react-query": "^3.39.3",
-    "zod": "^3.23.0"
+    "react-query": "^3.39.3"
   },
   "devDependencies": {
     "@types/node": "20.12.7",
-    "@types/react": "18.2.79",
-    "@types/react-dom": "18.2.25",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
     "@vanilla-extract/next-plugin": "^2.4.0",
-    "eslint": "9.1.0",
-    "eslint-config-next": "^14.2.2",
+    "eslint": "9.1.1",
+    "eslint-config-next": "^14.2.3",
     "prettier": "^3.2.5",
     "prettier-plugin-organize-imports": "^3.2.4",
     "typescript": "5.4.5"
