@@ -1,26 +1,18 @@
-import Link from 'next/link'
-import { AiTwotoneSetting } from 'react-icons/ai'
-import { FaGuitar } from 'react-icons/fa'
-import { Flex, Box, Container } from '@radix-ui/themes'
-import styles from '@/components/common/Header.css'
+import { HeaderTitleLink } from './HeaderTitleLink'
+import { HeaderSettingLink } from './HeaderSettingLink'
 
 export const Header = () => {
   return (
-    <header className={styles.main}>
-      <Container size='4'>
-        <Flex>
-          <Box flexGrow='1'>
-            <Link href='/' className={styles.heading}>
-              <FaGuitar />
-              my-nextjs-template
-            </Link>
-          </Box>
+    <header className='w-full'>
+      <div className='container mx-auto flex text-2xl font-semibold'>
+        <div className='flex-auto'>
+          <HeaderTitleLink />
+        </div>
 
-          <Link href='/setting' className={styles.setting}>
-            <AiTwotoneSetting />
-          </Link>
-        </Flex>
-      </Container>
+        <div className='w-24'>
+          <HeaderSettingLink />
+        </div>
+      </div>
     </header>
   )
 }
