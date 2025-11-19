@@ -30,6 +30,11 @@
     "tailwindcss": "^4.1.16",
     "typescript": "5.9.3"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "sharp"
+    ]
+  },
   "prettier": {
     "printWidth": 120,
     "tabWidth": 2,
