@@ -1,14 +1,12 @@
 # my-nextjs-template
-Template Repository of Next.js App.
+A Next.js Pages Router app template.
 
 ## Stack
-- Next.js v14 Pages Router
-- @radix-ui/themes
-- @vanilla-extract/css
+- Next.js v16 Pages Router
+- tailwindcss
 - Prettier
 
-## Command
-### How to create Next App with this template
+### How to use
 ```bash
 pnpm create next-app -e https://github.com/enuesaa/my-nextjs-template
 ```
